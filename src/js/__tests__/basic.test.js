@@ -5,13 +5,13 @@ test('should compare items in array_toEqual', () => {
     { name: 'мечник', health: 10 },
     { name: 'маг', health: 100 },
     { name: 'лучник', health: 80 },
-    { name: 'мечник2', health: 10 }
+    { name: 'мечник2', health: 10 },
   ];
   const result = [
     { name: 'маг', health: 100 },
     { name: 'лучник', health: 80 },
     { name: 'мечник', health: 10 },
-    { name: 'мечник2', health: 10 }
+    { name: 'мечник2', health: 10 },
   ];
   const expected = itemsSort(input);
   expect(result).toEqual(expected);
